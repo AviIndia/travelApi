@@ -7,8 +7,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 class JwtHelper {
 
-    private static $secret = "travel_secret_key_2026";
-
+    //private static $secret = "travel_secret_key_2026";
+private static $secret = "travel_tourism_application_super_secret_jwt_key_2026_@#123456789";
     public static function generate($user){
 
         $payload = [

@@ -2,8 +2,10 @@
 
 header("Content-Type: application/json");
 
-require_once '../../config/database.php';
-require_once '../../helpers/response.php';
+require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../helpers/response.php';
+
+
 
 $db = new Database();
 $conn = $db->connect();
